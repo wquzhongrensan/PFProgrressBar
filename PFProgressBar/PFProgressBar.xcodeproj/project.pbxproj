@@ -24,6 +24,7 @@
 		35B7FE572112957300F056DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		35B7FE592112957300F056DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		35B7FE602112959200F056DC /* PFProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PFProgressBar.swift; sourceTree = "<group>"; };
+		35B7FE632112A1F500F056DC /* demo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +41,7 @@
 		35B7FE412112957300F056DC = {
 			isa = PBXGroup;
 			children = (
+				35B7FE622112A1C600F056DC /* ScreenShot */,
 				35B7FE4C2112957300F056DC /* PFProgressBar */,
 				35B7FE4B2112957300F056DC /* Products */,
 			);
@@ -73,6 +75,14 @@
 				35B7FE602112959200F056DC /* PFProgressBar.swift */,
 			);
 			path = ProgressBar;
+			sourceTree = "<group>";
+		};
+		35B7FE622112A1C600F056DC /* ScreenShot */ = {
+			isa = PBXGroup;
+			children = (
+				35B7FE632112A1F500F056DC /* demo.png */,
+			);
+			path = ScreenShot;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

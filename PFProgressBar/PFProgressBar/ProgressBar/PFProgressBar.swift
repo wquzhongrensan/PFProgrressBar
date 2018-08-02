@@ -88,7 +88,7 @@ class PFProgressBar: UIView {
         
         markI = UILabel.init(frame: CGRect.init(x: start_X! , y: (backgroundLine?.center.y)! - 11.75, width: 25, height: 25))
         markI?.backgroundColor = UIColor.init(red: 255/255.0, green: 0, blue: 0, alpha: 1.0)
-        markI?.text = "1"
+        markI?.text = "S1"
         markI?.textAlignment = .center
         markI?.textColor = UIColor.white
         markI?.layer.cornerRadius = 25 / 2
